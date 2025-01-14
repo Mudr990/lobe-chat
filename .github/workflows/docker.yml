@@ -24,7 +24,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: <your-registry-name>.azurecr.io/lobe-chat
+          images: webuicronos.azurecr.io
           tags: |
             type=raw,value=latest
             type=ref,event=tag
